@@ -9,123 +9,133 @@
     <script src="/shopping.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="main-nav">
             <ul>
-                <li>HOME</li>
-                <li>STORE</li>
-                <li>ABOUT</li>
+                <li><a href="/home.html">HOME</a></li>
+                <li><a href="/shopping.html">STORE</a></li>
+                <li><a href="/about.html">ABOUT</a></li>
             </ul>
         </nav>
         <hr>
-        <h1>St Glyupi</h1>
+        <h1 class="store-name store-name-large">St Glyupi</h1>
     </header>
-    <section>
-        <h2>SHOES</h2>
-        <div>
-            <span>Nike</span>
-            <img src="/images/NIKE.jpg" width="200px" height="200px">
-            <div>
-                <span>$275.99</span>
-                <button>ADD TO CART</button>
+    <section class="section section-shoes">
+        <h2 class="shop-list">SHOES</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-brand">Nike</span>
+                <img class="shop-item-image" src="/images/NIKE.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$275.99</span>
+                    <button class="btn btn-add">ADD TO CART</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <span>Adidas</span>
-            <img src="/images/Adidas.jpg" width="200px" height="200px">
-            <div>
-                <span>$229.99</span>
-                <button>ADD TO CART</button>
+            <div class="shop-item">
+                <span class="shop-item-brand">Adidas</span>
+                <img class="shop-item-image" src="/images/Adidas.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$229.99</span>
+                    <button class="btn btn-add">ADD TO CART</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <span>Sketchers</span>
-            <img src="/images/sketchers.jpg" width="200px" height="200px">
-            <div>
-                <span>$199.99</span>
-                <button>ADD TO CART</button>
+            <div class="shop-item">
+                <span class="shop-item-brand">Sketchers</span>
+                <img class="shop-item-image" src="/images/sketchers.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$199.99</span>
+                    <button class="btn btn-add">ADD TO CART</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <span>Fila</span>
-            <img src="/images/fila.jpg" width="200px" height="200px">
-            <div>
-                <span>$164.99</span>
-                <button>ADD TO CART</button>
-            </div>
-        </div>
-    </section>
-    <section>
-        <h2>TOPS</h2>
-        <div>
-            <span>Zara</span>
-            <img src="/images/zara.webp" width="200px" height="200px">
-            <div>
-                <span>$25.79</span>
-                <button>ADD TO CART</button>
-            </div>
-        </div>
-        <div>
-            <span>Bershka</span>
-            <img src="/images/bershka.jpeg" width="200px" height="200px">
-            <div>
-                <span>$31.49</span>
-                <button>ADD TO CART</button>
-            </div>
-        </div>
-        <div>
-            <span>H&M</span>
-            <img src="/images/h&m.jpg" width="200px" height="200px">
-            <div>
-                <span>$16.99</span>
-                <button>ADD TO CART</button>
-            </div>
-        </div>
-        <div>
-            <span>Uniqlo</span>
-            <img src="/images/uniqlo.jpg" width="200px" height="200px">
-            <div>
-                <span>$27.00</span>
-                <button>ADD TO CART</button>
+            <div class="shop-item">
+                <span class="shop-item-brand">Fila</span>
+                <img class="shop-item-image" src="/images/fila.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$164.99</span>
+                    <button class="btn btn-add">ADD TO CART</button>
+                </div>
             </div>
         </div>
     </section>
-    <section>
-        <h2>CART</h2>
-        <div>
-            <div>
-                <span>ITEM</span>
-                <span>PRICE</span>
-                <span>QUANTITY</span>
+    <section class="section section-tops">
+        <h2 class="shop-list">TOPS</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-brand">Zara</span>
+                <img class="shop-item-image" src="/images/zara.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$25.79</span>
+                    <button class="btn btn-add">ADD TO CART</button>
+                </div>
             </div>
-            <div>
-                <img src="/images/uniqlo.jpg" width="60px" height="60px">
-                <span>Uniqlo</span>
-                <span>$27.00</span>
-                <input type="number" value="1">
-                <button>REMOVE</button>
+            <div class="shop-item">
+                <span class="shop-item-brand">Bershka</span>
+                <img class="shop-item-image" src="/images/bershka.jpeg"">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$31.49</span>
+                    <button class="btn btn-add">ADD TO CART</button>
+                </div>
             </div>
-            <div>
-                <img src="/images/NIKE.jpg" width="60px" height="60px">
-                <span>Nike</span>
-                <span>$275.99</span>
-                <input type="number" value="1">
-                <button>REMOVE</button>
+            <div class="shop-item">
+                <span class="shop-item-brand">H&M</span>
+                <img class="shop-item-image" src="/images/h&m.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$16.99</span>
+                    <button class="btn btn-add"> ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-brand">Uniqlo</span>
+                <img class="shop-item-image" src="/images/uniqlo.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$27.00</span>
+                    <button class="btn btn-add">ADD TO CART</button>
+                </div>
             </div>
         </div>
-        <div>
-            <strong>Total</strong>
-            <span>$302.99</span>
+    </section>
+    <section class="section section-cart">
+        <h2 class="shop-list">CART</h2>
+        <div class="cart-items">
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-colomn">ITEM</span>
+                <span class="cart-price cart-header cart-colomn">PRICE</span>
+                <span class="cart-quantity cart-header cart-colomn">QUANTITY</span>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-colomn">
+                    <img class="cart-item-image" src="/images/uniqlo.jpg">
+                    <span class="cart-item-title">Uniqlo</span>
+                </div>
+                <span class="cart-price cart-colomn">$27.00</span>
+                <div class="cart-quantity cart-colomn">
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="btn btn-danger cart-quantity-button">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-colomn">
+                    <img class="cart-item-image" src="/images/NIKE.jpg">
+                    <span class="cart-item-title">Nike</span>
+                </div>
+                <span class="cart-price cart-colomn">$275.99</span>
+                <div class="cart-quantity cart-colomn">
+                <input class="cart-quantity-input" type="number" value="1">
+                <button class="btn btn-danger cart-quantity-button">REMOVE</button>
+                </div>
+            </div>
+        </div> 
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$302.99</span>
         </div>
-        <div>
-        <button>PURCHASE</button>
-        </div>
+        <button class="btn purchase-btn">PURCHASE</button>
         <hr>
     </section>
-    <footer>
-        <h3>St Glyupi</h3>
-        <div>
-            <ul>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+        <h3 class="store-name store-name-foot">St Glyupi</h3>
+            <ul class="main-nav footer-nav">
                 <li>
                     <a href="https://www.youtube.com/" target="_blank">
                     <img src="/images/youtube.png">
